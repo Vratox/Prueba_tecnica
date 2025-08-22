@@ -4,19 +4,26 @@ Este proyecto es una aplicación básica de **inventario** desarrollada en **Dja
 A continuación se describen los pasos necesarios para ponerla en funcionamiento en un entorno local.
 
 ---
-```bash
 ## 🔹 1. Crear el entorno virtual
 
 Se recomienda usar `venv` para crear un entorno virtual aislado:
 
 # Crear el entorno virtual
+```bash
 python -m venv venv
+```
+
 
 # Activar el entorno virtual
 # En Windows
-venv\Scripts\activate
 
-# En Linux / Mac
+```bash
+venv\Scripts\activate
+```
+
+## En Linux / Mac
+
+```bash
 source venv/bin/activate
 ```
 
